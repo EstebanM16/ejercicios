@@ -12,7 +12,7 @@ boleta=True
 
 
 #EJERCICIO
-
+"""""
 empleados="pedro"
 empleado_2="juan"
 empleado_3="yahir"
@@ -75,9 +75,24 @@ else :
      print("pagarle al empleado por concepto de horas extras:")
      print( hora_ex)
 
+"""
 
+print('Ingrese el producto que desea publicitar')
+producto = ('')
+producto = input ()
+print ('Has elegido publicitar' , producto , 'buena eleccion')
 
-
+print ('ingrese el medio por el cual quiere publicitar el producto')
+redes = ('')
+redes = input()
+print('Has elegido publicitar tu', producto, 'en', redes)
+print ("confirme con si y no para repetir el procedimiento")
+confirmacion=('')
+Confirmacion=input()
+if confirmacion == "si":
+    print("su producto ha sido publicitado con exito ")
+else:
+    print("repita el procedimiento")
     
 
 
