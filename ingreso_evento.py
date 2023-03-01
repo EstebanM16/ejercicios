@@ -83,13 +83,13 @@ producto = input ()
 print ('Has elegido publicitar' , producto , 'buena eleccion')
 
 print ('ingrese el medio por el cual quiere publicitar el producto')
-redes = ('')
-redes = input()
-print('Has elegido publicitar tu', producto, 'en', redes)
+redes_sociales = ('')
+redes_sociales= input()
+print('Has elegido publicitar tu', producto, 'en', redes_sociales)
 print ("confirme con si y no para repetir el procedimiento")
-confirmacion=('')
-Confirmacion=input()
-if confirmacion == "si":
+confirmar=('')
+Confirmar=input()
+if confirmar == "si":
     print("su producto ha sido publicitado con exito ")
 else:
     print("repita el procedimiento")
